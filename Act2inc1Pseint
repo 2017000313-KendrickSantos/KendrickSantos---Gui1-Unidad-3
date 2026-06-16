@@ -1,0 +1,18 @@
+Algoritmo Act2inc1
+    Definir edades, i, contadorComoMayor Como Entero
+    Dimension edades[7]
+    contadorComoMayor <- 0
+    
+    Para i = 1 Hasta 7 Con Paso 1 Hacer
+        Escribir "Ingrese la edad de la persona ", i, ":"
+        Leer edades[i]
+    FinPara
+    
+    Para i <- 1 Hasta 7 Con Paso 1 Hacer
+        Si edades[i] >= 18 Entonces
+            contadorComoMayor = contadorComoMayor + 1
+        FinSi
+    FinPara
+    
+    Escribir "La cantidad de personas mayores de edad es: ", contadorComoMayor
+FinAlgoritmo
